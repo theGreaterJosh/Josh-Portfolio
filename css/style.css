@@ -1,0 +1,59 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Times New Roman', Times, serif;
+}
+body{
+    height: 100vh;
+    width: 100%;
+    background-color: aliceblue;
+}
+.header{
+    display: grid;
+    grid-template-columns: 0.8fr 0.8fr 3fr;
+    grid-template-rows: auto auto;
+    margin: 30px;
+    flex-wrap: wrap;
+}
+.header ul li {
+    margin: 20px;
+    font-size: 18px;
+}
+.profile h1{
+    margin: 20px;
+}
+.About{
+   margin-bottom: 20px;
+   text-align: center;
+}
+.about-me {
+    min-height: 25vh;
+    width: auto;
+}
+.about-me p {
+    font-size: 20px;
+    text-indent: 70px;
+}
+section{
+    margin: 20px;
+    padding: 10px;
+    display: grid;
+    grid-template-columns: 1fr 2fr;
+    grid-template-rows: auto auto;
+
+}
+section h1 {
+    margin-left: 20px;
+    margin-bottom: 20px;
+}
+section ul li{
+    margin-left: 10px;
+    font-size: 18px;
+    margin-bottom: 20px;
+}
+footer{
+    margin: 20px;
+    padding: 20px;
+    text-align: center;
+}
